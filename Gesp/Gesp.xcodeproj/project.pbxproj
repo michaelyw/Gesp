@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C8093291C1580C100AD879C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8093281C1580C100AD879C /* AppDelegate.swift */; };
+		8C80932B1C1580C100AD879C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C80932A1C1580C100AD879C /* ViewController.swift */; };
+		8C80932E1C1580C100AD879C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C80932C1C1580C100AD879C /* Main.storyboard */; };
+		8C8093301C1580C100AD879C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C80932F1C1580C100AD879C /* Assets.xcassets */; };
+		8C8093331C1580C100AD879C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C8093311C1580C100AD879C /* LaunchScreen.storyboard */; };
+		8C80933E1C1580C100AD879C /* GespTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C80933D1C1580C100AD879C /* GespTests.swift */; };
+		8C8093491C1580C100AD879C /* GespUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8093481C1580C100AD879C /* GespUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C80933A1C1580C100AD879C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C80931D1C1580C100AD879C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C8093241C1580C100AD879C;
+			remoteInfo = Gesp;
+		};
+		8C8093451C1580C100AD879C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C80931D1C1580C100AD879C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C8093241C1580C100AD879C;
+			remoteInfo = Gesp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8C8093251C1580C100AD879C /* Gesp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gesp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C8093281C1580C100AD879C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8C80932A1C1580C100AD879C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8C80932D1C1580C100AD879C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8C80932F1C1580C100AD879C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C8093321C1580C100AD879C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8C8093341C1580C100AD879C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C8093391C1580C100AD879C /* GespTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GespTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C80933D1C1580C100AD879C /* GespTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GespTests.swift; sourceTree = "<group>"; };
+		8C80933F1C1580C100AD879C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C8093441C1580C100AD879C /* GespUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GespUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C8093481C1580C100AD879C /* GespUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GespUITests.swift; sourceTree = "<group>"; };
+		8C80934A1C1580C100AD879C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C8093221C1580C100AD879C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C8093361C1580C100AD879C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C8093411C1580C100AD879C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C80931C1C1580C100AD879C = {
+			isa = PBXGroup;
+			children = (
+				8C8093271C1580C100AD879C /* Gesp */,
+				8C80933C1C1580C100AD879C /* GespTests */,
+				8C8093471C1580C100AD879C /* GespUITests */,
+				8C8093261C1580C100AD879C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C8093261C1580C100AD879C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C8093251C1580C100AD879C /* Gesp.app */,
+				8C8093391C1580C100AD879C /* GespTests.xctest */,
+				8C8093441C1580C100AD879C /* GespUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C8093271C1580C100AD879C /* Gesp */ = {
+			isa = PBXGroup;
+			children = (
+				8C8093281C1580C100AD879C /* AppDelegate.swift */,
+				8C80932A1C1580C100AD879C /* ViewController.swift */,
+				8C80932C1C1580C100AD879C /* Main.storyboard */,
+				8C80932F1C1580C100AD879C /* Assets.xcassets */,
+				8C8093311C1580C100AD879C /* LaunchScreen.storyboard */,
+				8C8093341C1580C100AD879C /* Info.plist */,
+			);
+			path = Gesp;
+			sourceTree = "<group>";
+		};
+		8C80933C1C1580C100AD879C /* GespTests */ = {
+			isa = PBXGroup;
+			children = (
+				8C80933D1C1580C100AD879C /* GespTests.swift */,
+				8C80933F1C1580C100AD879C /* Info.plist */,
+			);
+			path = GespTests;
+			sourceTree = "<group>";
+		};
+		8C8093471C1580C100AD879C /* GespUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8C8093481C1580C100AD879C /* GespUITests.swift */,
+				8C80934A1C1580C100AD879C /* Info.plist */,
+			);
+			path = GespUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C8093241C1580C100AD879C /* Gesp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C80934D1C1580C100AD879C /* Build configuration list for PBXNativeTarget "Gesp" */;
+			buildPhases = (
+				8C8093211C1580C100AD879C /* Sources */,
+				8C8093221C1580C100AD879C /* Frameworks */,
+				8C8093231C1580C100AD879C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gesp;
+			productName = Gesp;
+			productReference = 8C8093251C1580C100AD879C /* Gesp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8C8093381C1580C100AD879C /* GespTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C8093501C1580C100AD879C /* Build configuration list for PBXNativeTarget "GespTests" */;
+			buildPhases = (
+				8C8093351C1580C100AD879C /* Sources */,
+				8C8093361C1580C100AD879C /* Frameworks */,
+				8C8093371C1580C100AD879C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C80933B1C1580C100AD879C /* PBXTargetDependency */,
+			);
+			name = GespTests;
+			productName = GespTests;
+			productReference = 8C8093391C1580C100AD879C /* GespTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8C8093431C1580C100AD879C /* GespUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C8093531C1580C100AD879C /* Build configuration list for PBXNativeTarget "GespUITests" */;
+			buildPhases = (
+				8C8093401C1580C100AD879C /* Sources */,
+				8C8093411C1580C100AD879C /* Frameworks */,
+				8C8093421C1580C100AD879C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C8093461C1580C100AD879C /* PBXTargetDependency */,
+			);
+			name = GespUITests;
+			productName = GespUITests;
+			productReference = 8C8093441C1580C100AD879C /* GespUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C80931D1C1580C100AD879C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = bluechips;
+				TargetAttributes = {
+					8C8093241C1580C100AD879C = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					8C8093381C1580C100AD879C = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 8C8093241C1580C100AD879C;
+					};
+					8C8093431C1580C100AD879C = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 8C8093241C1580C100AD879C;
+					};
+				};
+			};
+			buildConfigurationList = 8C8093201C1580C100AD879C /* Build configuration list for PBXProject "Gesp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C80931C1C1580C100AD879C;
+			productRefGroup = 8C8093261C1580C100AD879C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C8093241C1580C100AD879C /* Gesp */,
+				8C8093381C1580C100AD879C /* GespTests */,
+				8C8093431C1580C100AD879C /* GespUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C8093231C1580C100AD879C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C8093331C1580C100AD879C /* LaunchScreen.storyboard in Resources */,
+				8C8093301C1580C100AD879C /* Assets.xcassets in Resources */,
+				8C80932E1C1580C100AD879C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C8093371C1580C100AD879C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C8093421C1580C100AD879C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C8093211C1580C100AD879C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C80932B1C1580C100AD879C /* ViewController.swift in Sources */,
+				8C8093291C1580C100AD879C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C8093351C1580C100AD879C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C80933E1C1580C100AD879C /* GespTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C8093401C1580C100AD879C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C8093491C1580C100AD879C /* GespUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C80933B1C1580C100AD879C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C8093241C1580C100AD879C /* Gesp */;
+			targetProxy = 8C80933A1C1580C100AD879C /* PBXContainerItemProxy */;
+		};
+		8C8093461C1580C100AD879C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C8093241C1580C100AD879C /* Gesp */;
+			targetProxy = 8C8093451C1580C100AD879C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8C80932C1C1580C100AD879C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C80932D1C1580C100AD879C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8C8093311C1580C100AD879C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C8093321C1580C100AD879C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C80934B1C1580C100AD879C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8C80934C1C1580C100AD879C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C80934E1C1580C100AD879C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Gesp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bluechips.Gesp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C80934F1C1580C100AD879C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Gesp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bluechips.Gesp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C8093511C1580C100AD879C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GespTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bluechips.GespTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gesp.app/Gesp";
+			};
+			name = Debug;
+		};
+		8C8093521C1580C100AD879C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GespTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bluechips.GespTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gesp.app/Gesp";
+			};
+			name = Release;
+		};
+		8C8093541C1580C100AD879C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GespUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bluechips.GespUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Gesp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		8C8093551C1580C100AD879C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GespUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bluechips.GespUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Gesp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C8093201C1580C100AD879C /* Build configuration list for PBXProject "Gesp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C80934B1C1580C100AD879C /* Debug */,
+				8C80934C1C1580C100AD879C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C80934D1C1580C100AD879C /* Build configuration list for PBXNativeTarget "Gesp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C80934E1C1580C100AD879C /* Debug */,
+				8C80934F1C1580C100AD879C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8C8093501C1580C100AD879C /* Build configuration list for PBXNativeTarget "GespTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C8093511C1580C100AD879C /* Debug */,
+				8C8093521C1580C100AD879C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8C8093531C1580C100AD879C /* Build configuration list for PBXNativeTarget "GespUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C8093541C1580C100AD879C /* Debug */,
+				8C8093551C1580C100AD879C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C80931D1C1580C100AD879C /* Project object */;
+}
